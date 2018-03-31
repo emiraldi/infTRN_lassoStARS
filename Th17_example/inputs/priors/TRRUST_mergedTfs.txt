@@ -1,0 +1,25 @@
+AI607873_BC094916...	AI607873, BC094916, Ifi203, Ifi204, Ifi205, Mnda, Mndal, Pydc3, Pydc4, Pyhin1
+Bard1_Barx2	Bard1, Barx2
+Bcl11a_Cbfb	Bcl11a, Cbfb
+Cbx6_Tcf19	Cbx6, Tcf19
+Cbx8_Foxg1...	Cbx8, Foxg1, Zbtb5
+Cnbp_Fubp1...	Cnbp, Fubp1, Tbl1x
+Cnot7_Cnot8	Cnot7, Cnot8
+E2f7_Polr1a	E2f7, Polr1a
+Ell_Mllt10	Ell, Mllt10
+Eno1_Eno1b	Eno1, Eno1b
+Foxh1_Uri1	Foxh1, Uri1
+Gbx2_Zmynd11	Gbx2, Zmynd11
+Grhl1_Tfcp2l1...	Grhl1, Tfcp2l1, Ubp1
+Gzf1_Hoxa11	Gzf1, Hoxa11
+Hmga1_Hmga1-rs1	Hmga1, Hmga1-rs1
+Hoxc10_Hoxc9	Hoxc10, Hoxc9
+Klf7_Zic2	Klf7, Zic2
+Mafg_Mafk...	Mafg, Mafk, Nfe2l1
+Mcm2_Mcm4...	Mcm2, Mcm4, Mdm4, Ruvbl1
+Mlx_Mxd4	Mlx, Mxd4
+Nsd1_Tcf21...	Nsd1, Tcf21, Trim24
+Rbbp7_Tcf12...	Rbbp7, Tcf12, Zfp217
+Rfxank_Rfxap	Rfxank, Rfxap
+Smarca1_Smarcb1	Smarca1, Smarcb1
+Tbx2_Tbx3	Tbx2, Tbx3

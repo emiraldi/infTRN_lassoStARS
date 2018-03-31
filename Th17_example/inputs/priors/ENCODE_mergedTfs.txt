@@ -1,0 +1,22 @@
+Ahrr_Arnt2	Ahrr, Arnt2
+Car2_Nr1i2...	Car2, Nr1i2, Nr1i3
+Cbfb_Runx2...	Cbfb, Runx2, Runx3
+E2f4_Tfdp1	E2f4, Tfdp1
+Ebf2_Ebf3	Ebf2, Ebf3
+Fos_Fosb...	Fos, Fosb, Fosl1, Fosl2, Jun, Junb, Jund
+Gabpb1_Gabpb2	Gabpb1, Gabpb2
+Hand2_Mxd1...	Hand2, Mxd1, Mxd3, Mxd4, Mxi1, Tal2
+Maff_Nfe2l3	Maff, Nfe2l3
+Mef2c_Mef2d	Mef2c, Mef2d
+Mitf_Tcf4	Mitf, Tcf4
+Nfatc2_Nfatc3	Nfatc2, Nfatc3
+Nfib_Nfix	Nfib, Nfix
+Nfyb_Nfyc	Nfyb, Nfyc
+Onecut1_Onecut2	Onecut1, Onecut2
+Pbx2_Pbx3	Pbx2, Pbx3
+Pou2af1_Pou4f1	Pou2af1, Pou4f1
+Rarb_Rarg	Rarb, Rarg
+Rfx2_Rfx5...	Rfx2, Rfx5, Rfxank, Rfxap
+Smad5_Smad6...	Smad5, Smad6, Smad7, Smad9
+Sox10_Sox6	Sox10, Sox6
+Stat2_Stat6	Stat2, Stat6

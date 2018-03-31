@@ -1,0 +1,24 @@
+Creb3l3_Creb3l4	Creb3l3, Creb3l4
+Csda_Ybx2	Csda, Ybx2
+Dlx6_Lbx1	Dlx6, Lbx1
+Fezf1_Fezf2	Fezf1, Fezf2
+Foxi2_Foxi3	Foxi2, Foxi3
+Foxk2_Foxp1...	Foxk2, Foxp1, Foxp2, Foxp4
+Hmga1_Hmga1-rs1	Hmga1, Hmga1-rs1
+Id3_Id4	Id3, Id4
+Klf10_Klf11	Klf10, Klf11
+Lyl1_Tal2	Lyl1, Tal2
+Mesp1_Mesp2	Mesp1, Mesp2
+Npas1_Npas3...	Npas1, Npas3, Sim1, Sim2
+Nr1h2_Nr1h3	Nr1h2, Nr1h3
+Satb1_Satb2	Satb1, Satb2
+Scx_Tcf15	Scx, Tcf15
+Sp5_Sp6	Sp5, Sp6
+Sp7_Sp8...	Sp7, Sp8, Sp9
+Tcfap2d_Tfap2d	Tcfap2d, Tfap2d
+Tfdp1_Tfdp2	Tfdp1, Tfdp2
+Tgif2lx1_Tgif2lx2	Tgif2lx1, Tgif2lx2
+Zbtb42_Zfp238	Zbtb42, Zfp238
+Zfp110_Zfp369	Zfp110, Zfp369
+Zkscan3_Zkscan4	Zkscan3, Zkscan4
+Zscan4c_Zscan4f	Zscan4c, Zscan4f
