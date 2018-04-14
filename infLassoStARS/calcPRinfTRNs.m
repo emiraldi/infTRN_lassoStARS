@@ -72,6 +72,8 @@ end
 fclose(fid);
 gsRegsTmp = C{1};
 gsTargsTmp = C{2};
+gsWeights = C{3};
+keepWeights = find(gsWeights); % indices of edges with nonzero weight
 % limit to TF-gene interactions considered by the model
 if gsRegsFile
     gsRegInds = find(ismember(gsRegsTmp,potRegs));
@@ -83,7 +85,7 @@ if targGeneFile
 else
     gsTargInds = 1:length(gsRegsTmp); % consider all target genes
 end
-keepInds = intersect(gsRegInds,gsTargInds);
+keepInds = intersect(intersect(gsRegInds,gsTargInds),keepWeights);
 gsRegs = cellstr(strvcat(gsRegsTmp{keepInds}));
 gsTargs = cellstr(strvcat(gsTargsTmp{keepInds}));
 totGsInts = length(keepInds);
