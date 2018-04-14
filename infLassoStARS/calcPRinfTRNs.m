@@ -12,21 +12,25 @@ function calcPRinfTRNs(infTrnFile,gsFile,rankColTrn,...
 %   Informatics, Cincinnati Children's Hospital
 %% INPUTS:
 % infTrnFile -- sparse network file (col 1 = TF, col 2 = target gene, col
-%   "rankColTrn" = signed edge confidence.  NOTE: code ranks edges based on
-%   absolute value of edge confidence
+%   "rankColTrn" = edge confidence.  NOTE: Code ranks edges based on
+%   ABSOLUTE VALUE of edge confidence
 % gsFile -- gold standard in sparse network file form (col 1 = TF, col 2 = 
-%   target gene, col "rankColGs" = nonzero confidence
-% rankColTrn -- column number corresponding to rankings in the infTrnFile
-% targGeneFile -- the set of target genes considered for P-R analysis
-%   (i.e., we should expect TRN to recover genes considered in the gold
-%   standard) OR provide '' (empty string or all genes in the gold standard
-%   will be used)
-% gsRegsFile -- list of regulators to be considered in the gold standard
-%   and TRN network OR provide '' (empty string) and all regulators will be
-%   used
+%   target gene, col 3 = edge confidence). NOTE: Any nonzero TF-gene
+%   interaction will be included in the gold standard.
+% rankColTrn -- column number corresponding to the values in the infTrnFile
+%   that will be used to rank interactions
+% targGeneFile -- the set of target genes to be considered for P-R analysis
+%   (e.g., could be the intersection of genes (1) for which TRNs were built 
+%   and (2) that were evaluated in constructing the gold standard)
+%   OPTION: Providing '' (empty string argument) will result in inclusion of
+%   all target genes in the gsFile for P-R and ROC
+% gsRegsFile -- list of regulators to be considered for P-R analysis
+%   OPTION: Providing '' (empty string argument) will result in inclusion of
+%   all regulators in the gsFile for P-R and ROC
 % outFileBase -- output file name used for ${outFileBase}.mat as well as
 %   figure output ${outFileBase}.pdf ${outFileBase}.fig
-% figOutBase -- name for figure files, leave '' to avoid saving figure
+% figOutBase -- name for figure files, 
+%   OPTION: Provide '' (empty string argument) to avoid saving figure
 %% OUTPUTS:
 % outFileBase -- contains precision, recall, TPR, FPR for the network
 %   overall as well as each gene individually
