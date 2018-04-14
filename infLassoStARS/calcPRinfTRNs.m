@@ -36,11 +36,6 @@ function calcPRinfTRNs(infTrnFile,gsFile,rankColTrn,...
 %   overall as well as each gene individually
 % (optional) figOutBase.fig / .pdf of P-R and ROC for full network
 
-%% End INPUTS
-% infTrnFile = outNetFileSparse;
-% outFileBase = prMatBase;
-% figOutBase = prFigBase;
-
 %% load genes considered
 if targGeneFile
     geneIn = fopen(targGeneFile,'r');
