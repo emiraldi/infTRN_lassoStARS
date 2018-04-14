@@ -106,3 +106,18 @@ disp('4. buildTRNs_mLassoStARS.m')
 buildTRNs_mLassoStARS(instabOutMat,tfaMat,priorMergedTfsFile,...
     meanEdgesPerGene,targetInstability,instabSource,subsampHistPdf,trnOutMat,...
     outNetFileSparse)
+
+%% 5. Calculate precision-recall relative to KO-ChIP G.S.
+gsFile = './inputs/priors/KC1p5_sp.tsv';
+prNickName = 'KC1p5';
+rankColTrn = 3;
+prTargGeneFile = './inputs/priors/goldStandardGeneLists/targGenesPR_mm9mm10.txt';
+gsRegsFile = '';
+prDir = fullfile(networkSubDir,['PR_' prNickName]);
+mkdir(prDir)
+prMatBase = fullfile(prDir,netSummary);
+prFigBase = fullfile(prDir,netSummary);
+
+display('5. calcPRinfTRNs')
+calcPRinfTRNs(outNetFileSparse,gsFile,rankColTrn,...
+    prTargGeneFile,gsRegsFile,prMatBase,prFigBase)
