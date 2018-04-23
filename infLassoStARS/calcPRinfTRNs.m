@@ -92,6 +92,10 @@ totGsInts = length(keepInds);
 uniGsRegs = unique(gsRegs);
 totGsRegs = length(uniGsRegs);
 gsInfs.regs = uniGsRegs;
+if not(length(targGeneFile))  % all targets in the prior are used if no target gene list was supplied
+    potTargGenes = unique(gsTargs);
+    totTargGenes = length(potTargGenes);
+end
 gsInfs.totPotInts = totTargGenes*totGsRegs;
 randPR = totGsInts/gsInfs.totPotInts;
 [dd, currFileBase,ext] = fileparts(gsFile);
