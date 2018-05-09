@@ -101,8 +101,8 @@ for res = 1:totResponses
     if rem(res,500) == 0
         % make sure nothing wonky is happening with lasso solution paths
         disp([num2str(res) ' models built.'])
-        glmnetPlot(lsoln)      
-        shg
+%         glmnetPlot(lsoln)      
+%         shg
     end 
 end
 toc
