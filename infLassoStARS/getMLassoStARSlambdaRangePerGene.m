@@ -183,8 +183,8 @@ for res = 1:totResponses % can be a parfor loop
         % make sure nothing wonky is happening with lasso solution paths
         disp([num2str(res) ' models built.'])
 %         figure(100), clf
-        glmnetPlot(lsoln)      
-        shg
+%         glmnetPlot(lsoln)      
+%         shg
     end
 end
 for res = 1:totResponses
