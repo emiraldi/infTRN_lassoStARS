@@ -37,10 +37,12 @@ eps = 1E-10; % target genes whose standard deviation across all samples is
 currFile = normGeneExprFile;
 ls(currFile)
 fid = fopen(currFile);
-tline=fgetl(fid);
+tline=fgetl(fid); % line 1
+tline2 = fgets(fid); % line 2
+totSamps = length(cellstr(strvcat(strsplit(tline2,'\t')))') - 1; % number of samples
 conditionsc = cellstr(strvcat(strsplit(tline,'\t')))';
+conditionsc = conditionsc(end-totSamps+1:end);
 fclose(fid);
-totSamps = length(conditionsc);
 % get input data
 fid = fopen(currFile);
 C = textscan(fid,['%s' repmat('%f',1,totSamps)],'Delimiter','\t','Headerlines',1);
