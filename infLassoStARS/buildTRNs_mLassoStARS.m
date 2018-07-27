@@ -150,6 +150,10 @@ zTfa = zscore(predictorMat')';
 zTargGeneMat = zscore(responseMat')';
 inPriorMat = sign(abs(priorMat));  
 
+if length(find(ssOfInt(:)>=ssIn))/totNetGenes > meanEdgesPerGene
+    disp(['Size of the model is ~' roundstring1(length(find(ssOfInt(:)>=ssIn))/totNetGenes) ' TFs/gene. Please adjust meanEdgesPerGene']);
+end
+
 %% Rank edges based on stability at instability cutoff
 disp('Ranking Edges')
 totInts = totNetGenes * totNetTfs;   
