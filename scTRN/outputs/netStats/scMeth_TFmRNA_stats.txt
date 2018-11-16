@@ -1,0 +1,12 @@
+23197 Edges Total.
+19859 + Edges
+3338 - Edges.
+5.95 is the ratio + to - Edges.
+213 total TFs in the TRN.
+114 TFs were in the Prior.
+7384 edges in the Prior.
+32 percent of total edges are in the prior.
+9163 new edges for TFs in the Prior.
+55 percent of edges for Prior TFs are new.
+6650 new edges for TFs NOT in the Prior.
+29 percent of total edges connect to TFs NOT in the Prior.
