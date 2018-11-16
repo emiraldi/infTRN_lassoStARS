@@ -222,7 +222,7 @@ if tfList
     fid = fopen(tfList,'r');
     C = textscan(fid,'%s','Headerlines',0);
     fclose(fid);
-    tfOrd = C{1}; % no longer flipud
+    tfOrd = flipud(C{1}); 
     
     totTfs = length(tfOrd);    
     tfInds = zeros(totTfs,1);
