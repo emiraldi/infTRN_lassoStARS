@@ -180,6 +180,7 @@ grid on, box on
 set(gca,'FontSize',currFont)
 legend(legendInf,'Location','SouthOutSide','FontSize',currFont+2)
 xlabel('# of Negative and Positive Targets per TF','FontSize',currFont+2)
+ylabel('TFs ordered by degree','FontSize',currFont+2)
 
 currFig = fullBarOut;
 if currFig
