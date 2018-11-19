@@ -1,0 +1,3 @@
+	Ahr	Arid2	Batf	Baz2a	Bcl11b	Cebpg	Cux1	Elf2	Elk3	Ets1	Etv6	Fosl2	Foxo1	Gtf2b	Gtf2i	Hivep2	Ikzf3	Jrkl	Jun	Jund	Kcmf1	Klf13	Maf	Mbnl2	Mga	Mxd1	Nfe2l2	Nme2	Pou2af1	Rara	Rbpj	Rora	Rorc	Runx1	Ski	Skil	Snapc5	Sp3	Srebf1	Stat1	Stat3	Stat5a	Stat5b	Tcf7	Terf1	Tfdp2	Tigd2	Trp53	Trps1	Zeb1	Zfp1	Zfp260	Zfp318	Zkscan1
+Th17_downOnly	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0
+Th17_upOnly	62	5	11	7	11	11	60	9	23	19	18	47	24	4	14	13	50	37	26	22	6	9	101	5	0	18	14	10	60	32	10	85	64	33	11	20	7	17	8	23	21	10	8	9	11	12	0	7	46	12	8	17	11	12

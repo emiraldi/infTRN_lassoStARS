@@ -1,0 +1,3 @@
+	Atf4	Fli1	Gtf2i	Hivep3	Irf8	Jund	Maf	Max	Nrf1	Rara	Stat1	Stat5a
+Th17_downOnly	1	1	1	1	1	1	1	1	1	1	1	1
+Th17_upOnly	1	1	1	1	1	0.331568714736	1	1	1	1	0.00263745567431	1

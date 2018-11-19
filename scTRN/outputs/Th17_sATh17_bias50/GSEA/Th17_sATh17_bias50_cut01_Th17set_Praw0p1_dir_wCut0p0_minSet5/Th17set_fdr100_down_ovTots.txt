@@ -1,0 +1,2 @@
+	Hivep3	Hmg20b	Irf2	Irf3	Irf8	Lef1	Max	Nfyb	Rara	Stat1	Stat5a	Tcf3	Zkscan1
+Th17_upOnly	20	45	68	65	76	26	20	7	27	43	38	18	57

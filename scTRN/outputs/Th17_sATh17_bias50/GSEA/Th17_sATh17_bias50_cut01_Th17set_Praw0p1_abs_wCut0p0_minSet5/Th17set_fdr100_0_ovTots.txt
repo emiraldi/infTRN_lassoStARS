@@ -1,0 +1,2 @@
+	Atf6	Batf	Cebpg	Elf2	Fli1	Fosl2	Foxo1	Foxp1	Gtf2i	Hivep2	Hivep3	Hmg20b	Hmgb1	Irf2	Irf3	Irf8	Jrkl	Jun	Junb	Max	Maz	Mlx	Mxd1	Nfe2l1	Nfkb2	Pura	Rara	Ski	Skil	Srebf2	Stat1	Stat3	Stat5a	Tcf3	Trps1	Ybx1	Zfp148	Zfp664	Zkscan1
+Th17_upOnly	35	86	68	19	24	67	52	40	37	20	24	48	31	78	80	86	54	47	27	26	54	37	40	34	12	33	34	15	36	17	58	75	43	29	62	18	48	31	58

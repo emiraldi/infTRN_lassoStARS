@@ -1,0 +1,2 @@
+	Jund	Stat1
+Th17_upOnly	Ccl20 Ctla2b Il17a Il17f Il1r1 Il21 Maf Pdpn Rora Tnip2	AA467197 Ctla2a Emp1 Il10 Il17a Il21 Lgals1 Lpxn Mt1 Mt2 Pdpn Procr Rnf149 Rora Timp1

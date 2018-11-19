@@ -1,0 +1,55 @@
+TF	GeneSet_ID	GeneSetName	#Set genes	Direction	#TF targets	# in overlap	P_raw	P_adj	EnrichedGenes
+Pou2af1	Th17_upOnly.txt	Th17_upOnly	1170	0	90	60	3.71191966053e-12	1.26205268458e-09	1600014C10Rik AA467197 Abi3 Adarb1 Ahr Aqp3 Ass1 Atp2b4 Bdh2 Ccl20 Cd28 Cdkn2d Chmp4b Cndp2 Cpd Cpox Ctla2a Ctla2b Cysltr1 Dst Egln3 Ehd4 Eif4e3 Emp1 Emp3 Fth1 Gmfg Gngt2 Gpr15 Id2 Igfbp4 Ikzf3 Il10 Il17a Il17f Il1r1 Il21 Il9 Klrd1 Lgals1 Lgals3 Lgr4 Lpxn Maf Mxd1 Nedd4 Nipal1 Pdpn Pmepa1 Procr Rora Rorc Serpinb1a Sgk1 Smox Susd3 Tec Timp1 Tnfrsf25 Tnip2
+Rorc	Th17_upOnly.txt	Th17_upOnly	1170	0	100	64	9.01811958443e-12	3.05714253912e-09	1600014C10Rik AA467197 Abi3 Adam19 Adarb1 Ahr Aqp3 Arid5a Ass1 Atp2b4 Bdh2 Capg Ccl20 Cdkn2d Chmp4b Cish Cpd Crem Ctla2a Ctla2b Cysltr1 Cyth4 Emb Emp1 Fth1 Gngt2 Gpr15 Id2 Igfbp4 Il10 Il17a Il17f Il1r1 Il21 Il9 Klrd1 Lgals1 Lgals3 Lgr4 Lpxn Maf Malt1 Mt2 Nipal1 Pdpn Plod2 Pmepa1 Procr Rnf149 Rora S100a13 Serpinb1a Sesn3 Sgk1 Srgn Susd3 Tec Timp1 Tiparp Tnfrsf25 Treml2 Ucp2 Vim Znrf1
+Ahr	Th17_upOnly.txt	Th17_upOnly	1170	0	100	62	1.29742994126e-10	4.38531320146e-08	1600014C10Rik AA467197 Abi3 Adam19 Adarb1 Aqp3 Arid5a Ass1 Ccl20 Ccnd3 Chmp4b Cpd Crip1 Ctla2a Ctla2b Dst Egln3 Emb Emp1 Ero1l Fau Fth1 Furin Gmfg Gngt2 Gpr15 Hemk1 Igfbp4 Il10 Il17f Il1r1 Il21 Il9 Klhl6 Klrd1 Lgals1 Lgals3 Lgr4 Ly6c1 Maf Mt1 Mxd1 Nipal1 Pdpn Plod2 Procr Rbpj Rnf19b Rora Rorc Sema4d Sept9 Serpinb1a Sgk1 Smox Susd3 Tec Timp1 Tiparp Tnfrsf25 Tnip2 Vim
+Cux1	Th17_upOnly.txt	Th17_upOnly	1170	0	96	60	1.63570157419e-10	5.51231430501e-08	AA467197 Abi3 Acsl4 Adarb1 Ahr Aqp3 Ass1 Atp2b4 Bdh2 Capg Ccl20 Chmp4b Cndp2 Cpd Cpox Ctla2b Cysltr1 Egln3 Ehd4 Emp3 Fth1 Furin Gmfg Gngt2 Gpr15 Igfbp4 Ikzf3 Il10 Il21 Il9 Itgam Klhl6 Klrd1 Lgals3 Lgr4 Lpxn Lta Maf Mt1 Mt2 Mxd1 Nipal1 Pdpn Plod2 Pmepa1 Procr Ptgfrn Rnf149 Rora Rorc Serpinb1a Sgk1 Smox Tec Timp1 Tiparp Tnfrsf25 Ucp2 Vim Znrf1
+Trps1	Th17_upOnly.txt	Th17_upOnly	1170	0	77	46	1.71028325613e-07	5.74655174059e-05	AA467197 Adam19 Adarb1 Ahr Aqp3 Arid5a Ass1 Atp2b4 Bdh2 Chmp4b Cpd Cpox Ctla2b Egln3 Ehd4 Emb Fau Furin Gmfg Gngt2 Gpr15 Il17f Il21 Il9 Klhl6 Klrd1 Lgals1 Lpxn Maf Mt1 Mxd1 Nipal1 Pdpn Plod2 Procr Rbpj Rnf149 Rorc Serpinb1a Smox Susd3 Tgm2 Timp1 Tnfrsf25 Tnip2 Vim
+Fosl2	Th17_upOnly.txt	Th17_upOnly	1170	0	82	47	7.02172452294e-07	0.000235227771518	Abi3 Adarb1 Ass1 Capg Casp6 Ccl20 Chmp4b Cpox Crip1 Ctla2a Ctla2b Ctla4 Cyfip2 Cyth4 Egln3 Ehd4 Eif4e3 Emp3 Fau Fth1 Glipr2 Gngt2 Ikzf3 Il10 Il21 Il2ra Il9 Krtcap2 Lgals1 Lpxn Malt1 Mt1 Mt2 Nipal1 Pim1 Pmepa1 Ptgfrn Rbpj Rora S100a13 Sesn3 Susd3 Tiparp Tnfrsf25 Tnip2 Treml2 Vim
+Ikzf3	Th17_upOnly.txt	Th17_upOnly	1170	0	90	50	1.13132946367e-06	0.000377864040864	1600014C10Rik Abi3 Adarb1 Aqp3 Ass1 Bdh2 Capg Cdkn2d Cndp2 Cpd Crip1 Ctla2b Cyfip2 Cysltr1 Dst Egln3 Ehd4 Emb Emp1 Emp3 Fth1 Gmfg Gngt2 Gpr15 Igfbp4 Il10 Klhl6 Klrd1 Lgals1 Lpxn Maf Malt1 Mt1 Mt2 Mxd1 Nedd4 Pdpn Plod2 Pmepa1 Procr Ptgfrn Rbpj Rnf149 Rora Serpinb1a Sgk1 Smox Timp1 Tiparp Tnfrsf25
+Maf	Th17_upOnly.txt	Th17_upOnly	1170	0	226	101	7.94853790942e-06	0.00264686312384	1600014C10Rik AA467197 Abi3 Acsl4 Adam19 Adarb1 Ahr Aldoa Aqp3 Arid5a Ass1 Atp2b4 Batf Bcl2 Bdh2 Bnip3 Capg Casp6 Ccl20 Cd28 Cdkn2d Chmp4b Cish Cndp2 Cnn2 Cpd Cpox Crem Ctla2a Ctla2b Ctla4 Cyfip2 Cysltr1 Cyth4 Dst Ehd4 Eif4e3 Eif4ebp1 Emb Emp1 Ero1l Fth1 Furin Galk1 Gmfg Gpr15 Gpr65 Hemk1 Hif1a Id2 Igfbp4 Ikzf3 Il10 Il17a Il17f Il1r1 Il21 Il2ra Il2rb Il4ra Il9 Itgam Klhl6 Klrd1 Lgals1 Lgals3 Lgr4 Lpxn Malt1 Mt1 Mt2 Mxd1 Nedd4 Nipal1 Npc2 Pdpn Pim1 Pla2g12a Plod2 Pmepa1 Procr Ptgfrn Rbpj Rnf149 Rnf19b Rora Rorc Sema4d Serpinb1a Sgk1 Smox Socs1 Srgn Tec Timp1 Tiparp Tnfrsf25 Tnip2 Ucp2 Vim Znrf1
+Rora	Th17_upOnly.txt	Th17_upOnly	1170	0	185	85	1.18351380831e-05	0.00392926584359	1600014C10Rik AA467197 Abi3 Adam19 Adarb1 Ahr Aldoa Aqp3 Arid5a Ass1 Bcl2 Bdh2 Capg Ccl20 Ccnd3 Cd28 Cdkn2d Chmp4b Cndp2 Cnn2 Cpd Crem Ctla2a Ctla2b Ctla4 Cysltr1 Cyth4 Dst Egln3 Ehd4 Eif4e3 Emb Emp1 Fth1 Furin Gmfg Gngt2 Gpr15 Gpr65 Igfbp4 Ikzf3 Il10 Il17a Il17f Il1r1 Il21 Il2rb Il9 Klhl6 Klrd1 Lgals1 Lgals3 Lgr4 Lpxn Ly6a Maf Malt1 Mt1 Mt2 Mxd1 Nipal1 Npc2 Pdpn Plod2 Pmepa1 Procr Ptgfrn Rbpj Rnf149 Rnf19b Rorc Serpinb1a Sesn3 Sgk1 Smox Srgn Susd3 Tec Tgm2 Timp1 Tiparp Tnip2 Treml2 Ucp2 Vim
+Zfp260	Th17_upOnly.txt	Th17_upOnly	1170	0	23	17	3.01338981546e-05	0.00997432028919	AA467197 Cdkn2d Cpox Ehd4 Eif4e3 Furin Glipr2 Gmfg Gngt2 Itgam Ptgfrn Rnf149 Sept9 Sesn3 Smox Treml2 Ucp2
+Jrkl	Th17_upOnly.txt	Th17_upOnly	1170	0	67	37	3.42378266137e-05	0.0112984827825	AA467197 Abi3 Adarb1 Ahr Aqp3 Ass1 Capg Chmp4b Cpox Cyth4 Dst Egln3 Ehd4 Emp1 Gngt2 Gpr15 Id2 Igfbp4 Il1r1 Klrd1 Lgr4 Malt1 Mt1 Mt2 Pdpn Procr Rora Rorc Sesn3 Sgk1 Smox Tgm2 Timp1 Tnip2 Treml2 Vim Znrf1
+Ets1	Th17_upOnly.txt	Th17_upOnly	1170	0	28	19	6.91323539942e-05	0.0227445444641	Acsl4 Aes Capg Cndp2 Cpd Cpox Ctla4 Cyfip2 Gpr15 Il2ra Lgals3 Lgr4 Rbpj Sesn3 Smox Susd3 Tnip2 Treml2 Vim
+Rara	Th17_upOnly.txt	Th17_upOnly	1170	0	60	32	0.000276746952576	0.0907730004449	Abi3 Atp2b4 Chmp4b Cndp2 Cpd Cyfip2 Cyth4 Dst Egln3 Ehd4 Emp1 Fth1 Gpr15 Igfbp4 Il10 Il17a Il21 Itgam Klhl6 Lgals3 Lpxn Maf Mxd1 Nedd4 Pdpn Pmepa1 Rora Rorc Sesn3 Sgk1 Tec Treml2
+Foxo1	Th17_upOnly.txt	Th17_upOnly	1170	0	45	24	0.00158954478803	0.519781145685	Acsl4 Adam19 Aes Ahr Cd28 Cdkn2d Cndp2 Cpox Cysltr1 Dst Furin Gpr15 Il21 Il2ra Klhl6 Lgr4 Malt1 Pmepa1 Rora Sema4d Susd3 Tiparp Tnfrsf25 Tnip2
+Tfdp2	Th17_upOnly.txt	Th17_upOnly	1170	0	18	12	0.00205724338327	0.670661342947	Adam19 Aes Casp6 Cd2 Chd7 Ehd4 Furin Gngt2 Itgam Plod2 Tgm2 Ucp2
+Terf1	Th17_upOnly.txt	Th17_upOnly	1170	0	16	11	0.00220685273147	0.717227137728	Abi3 Ehd4 Gngt2 Ikzf3 Itgam Klhl6 Nedd4 Rnf149 Sept9 Sesn3 Znrf1
+Tigd2	Th17_downOnly.txt	Th17_downOnly	1248	0	8	7	0.00255252995449	0.827019705255	Adam10 Asf1a Ccdc50 Cd81 Cyp51 Erap1 Myo6
+Runx1	Th17_upOnly.txt	Th17_upOnly	1170	0	71	33	0.00466106704218	1	1600014C10Rik Abi3 Adam19 Adarb1 Arid5a Cd28 Cdkn2d Cpd Cpox Crem Dst Egln3 Ehd4 Emp1 Furin Gpr65 Hif1a Id2 Il1r1 Il2ra Itgam Lpxn Malt1 Nedd4 Pim1 Procr Ptgfrn Rbpj Rora Smox Susd3 Tnfrsf25 Tnip2
+Stat3	Th17_upOnly.txt	Th17_upOnly	1170	0	41	21	0.00576248987913	1	Acsl4 Adarb1 Aes Atp2b4 Bdh2 Cndp2 Cpd Cpox Ctla4 Cyfip2 Egln3 Igfbp4 Ikzf3 Il1r1 Il2ra Klhl6 Pdpn Rbpj Rora Treml2 Znrf1
+Skil	Th17_upOnly.txt	Th17_upOnly	1170	0	39	20	0.00686910698185	1	AA467197 Abi3 Aqp3 Atp2b4 Cpd Ctla4 Dst Ehd4 Emp1 Furin Gpr15 Il21 Malt1 Mt2 Nedd4 Pmepa1 Rora Sept9 Sesn3 Tnip2
+Sp3	Th17_upOnly.txt	Th17_upOnly	1170	0	32	17	0.00793047384892	1	1600014C10Rik Ahr Bcl2 Bdh2 Casp6 Cdkn2d Cish Cnn2 Ikzf3 Il4ra Nedd4 Pim1 Pla2g12a Rbpj Rnf19b Tiparp Ucp2
+Mxd1	Th17_upOnly.txt	Th17_upOnly	1170	0	35	18	0.00978144130211	1	1600014C10Rik Ahr Ass1 Cpd Cyfip2 Cyth4 Ehd4 Emb Furin Gngt2 Ikzf3 Klhl6 Maf Nedd4 Pim1 Rnf149 Smox Tiparp
+Elk3	Th17_upOnly.txt	Th17_upOnly	1170	0	48	23	0.0109551881675	1	Ahr Aldoa Ccl20 Crip1 Eif4e3 Il2rb Klhl6 Lgals1 Lgals3 Lpxn Maf Mxd1 Nipal1 Pdpn Plod2 Rbpj Rnf149 Smox Srgn Susd3 Tnip2 Treml2 Ucp2
+Zkscan1	Th17_upOnly.txt	Th17_upOnly	1170	0	21	12	0.0121017392842	1	Adarb1 Ass1 Cpd Eif4e3 Igfbp4 Itgam Klhl6 Klrd1 Maf Procr Rora Satb1
+Stat5b	Th17_upOnly.txt	Th17_upOnly	1170	0	12	8	0.0122042227002	1	Bdh2 Cish Il4ra Lgals3 Ltb Ly6e Pla2g12a Znrf1
+Jund	Th17_upOnly.txt	Th17_upOnly	1170	0	46	22	0.0130471230533	1	Aes Bcl2 Casp6 Ccl20 Crem Ctla2b Cyfip2 Emp3 Ero1l Hemk1 Il17a Il17f Il1r1 Il21 Lta Maf Npc2 Pdpn Rnf19b Rora Satb1 Tnip2
+Mbnl2	Th17_upOnly.txt	Th17_upOnly	1170	0	6	5	0.0131118442133	1	Atp2b4 Furin Ikzf3 Itgam Tnfrsf25
+Ski	Th17_upOnly.txt	Th17_upOnly	1170	0	19	11	0.0142905689909	1	AA467197 Abi3 Adarb1 Arid5a Emp3 Id2 Ly6c1 Maf Smox Tgm2 Treml2
+Stat1	Th17_upOnly.txt	Th17_upOnly	1170	0	49	23	0.0146850724169	1	AA467197 Batf Cnn2 Crem Ctla2a Emp1 Hemk1 Il10 Il17a Il21 Il2ra Il4ra Lgals1 Lpxn Lta Mt1 Mt2 Pdpn Procr Rnf149 Rora Socs1 Timp1
+Bcl11b	Th17_upOnly.txt	Th17_upOnly	1170	0	20	11	0.0229497846073	1	AA467197 Adarb1 Bdh2 Cpd Fth1 Gngt2 Itgam Pmepa1 Rorc Tec Ucp2
+Hivep2	Th17_upOnly.txt	Th17_upOnly	1170	0	25	13	0.0240798892595	1	Arid5a Chd7 Eif4e3 Eif4ebp1 Ero1l Il10 Il4ra Lta Ly6e Rorc Sept9 Tec Znrf1
+Jun	Th17_upOnly.txt	Th17_upOnly	1170	0	59	26	0.0247686070231	1	Acsl4 Adarb1 Bdh2 Capg Chmp4b Cpox Ctla4 Cyfip2 Cysltr1 Cyth4 Dst Emb Emp3 Gpr15 Ikzf3 Il2ra Lpxn Mt1 Nipal1 Pla2g12a Pmepa1 Sema4d Sept9 Sesn3 Tec Tgm2
+Etv6	Th17_upOnly.txt	Th17_upOnly	1170	0	38	18	0.0264186172473	1	Acsl4 Batf Bnip3 Cish Galk1 Glipr2 Gpr65 Higd1a Lgals3 Lta Mxd1 Pla2g12a Plod2 Ptgfrn Socs1 Tnip2 Treml2 Ucp2
+Trp53	Th17_upOnly.txt	Th17_upOnly	1170	0	11	7	0.0268375986591	1	Capg Crem Cyth4 Emb Klhl6 Ly6c1 Ptgfrn
+Snapc5	Th17_upOnly.txt	Th17_upOnly	1170	0	11	7	0.0268375986591	1	Ass1 Bnip3 Casp6 Higd1a Il9 Itgam Ptgfrn
+Nme2	Th17_upOnly.txt	Th17_upOnly	1170	0	18	10	0.0274726925063	1	AA467197 Lpxn Ly6c1 Mt2 Rnf149 Sgk1 Smox Susd3 Ucp2 Znrf1
+Elf2	Th17_upOnly.txt	Th17_upOnly	1170	0	16	9	0.032914088876	1	Cndp2 Cyfip2 Emp3 Hif1a Il2ra Pim1 Rnf19b Satb1 Tec
+Tcf7	Th17_upOnly.txt	Th17_upOnly	1170	0	16	9	0.032914088876	1	Abi3 Fau Il21 Rora Sesn3 Tgm2 Tiparp Treml2 Ucp2
+Arid2	Th17_upOnly.txt	Th17_upOnly	1170	0	7	5	0.0341019057494	1	Ehd4 Sept9 Sesn3 Smox Znrf1
+Batf	Th17_upOnly.txt	Th17_upOnly	1170	0	21	11	0.0348826344569	1	Abi3 Adarb1 Cnn2 Crem Ctla2a Dst Glipr2 Il2rb Npc2 Ptgfrn Tgm2
+Zfp1	Th17_upOnly.txt	Th17_upOnly	1170	0	14	8	0.0394603862481	1	Adam19 Atp2b4 Cyth4 Eif4ebp1 Il4ra Nipal1 Rnf149 Znrf1
+Zeb1	Th17_upOnly.txt	Th17_upOnly	1170	0	24	12	0.0418528121571	1	AA467197 Atp2b4 Cndp2 Egln3 Fth1 Il1r1 Il21 Lgals3 Lpxn Mt2 Nedd4 S100a13
+Rbpj	Th17_upOnly.txt	Th17_upOnly	1170	0	19	10	0.0421194964164	1	Arid5a Capg Ehd4 Hif1a Id2 Ikzf3 Krtcap2 Susd3 Tgm2 Treml2
+Baz2a	Th17_upOnly.txt	Th17_upOnly	1170	0	12	7	0.0473243250018	1	Abi3 Cd28 Cdkn2d Cndp2 Ehd4 Sept9 Znrf1
+Zfp318	Th17_upOnly.txt	Th17_upOnly	1170	0	22	11	0.0505773628302	1	Acsl4 Adarb1 Cpd Cysltr1 Gngt2 Ikzf3 Klhl6 Malt1 Mxd1 Ptgfrn Tec
+Klf13	Th17_upOnly.txt	Th17_upOnly	1170	0	17	9	0.0509946269468	1	Ass1 Atp2b4 Cndp2 Emp1 Ikzf3 Mt2 Mxd1 Nedd4 Tgm2
+Nfe2l2	Th17_upOnly.txt	Th17_upOnly	1170	0	30	14	0.0542808117926	1	Cdkn2d Crem Egln3 Emb Lgals3 Lta Ltb Ly6e Mt2 Pla2g12a Satb1 Smox Socs1 Znrf1
+Kcmf1	Th17_upOnly.txt	Th17_upOnly	1170	0	10	6	0.05672607477	1	Bdh2 Bnip3 Glipr2 Gmfg Pla2g12a Ptgfrn
+Srebf1	Th17_upOnly.txt	Th17_upOnly	1170	0	15	8	0.0619409768081	1	Batf Chd7 Hemk1 Id2 Itgam Lgals3 Ly6c1 Pim1
+Gtf2i	Th17_upOnly.txt	Th17_upOnly	1170	0	31	14	0.0714531132481	1	Cnn2 Cyfip2 Cysltr1 Gmfg Higd1a Il17f Il4ra Lgals1 Ly6e Pdpn Rnf19b Sept9 Socs1 Treml2
+Gtf2b	Th17_upOnly.txt	Th17_upOnly	1170	0	6	4	0.0804564584461	1	Itgam Ly6c1 Nedd4 S100a13
+Stat5a	Th17_upOnly.txt	Th17_upOnly	1170	0	21	10	0.0852951843781	1	Bcl2 Crem Ctla2a Cyth4 Eif4ebp1 Ero1l Il17a Il9 Sept9 Znrf1
+Cebpg	Th17_upOnly.txt	Th17_upOnly	1170	0	24	11	0.0945522946981	1	Batf Bcl2 Ccnd3 Cndp2 Eif4ebp1 Higd1a Ikzf3 Ly6a Ly6c1 Pla2g12a Smox
+Mga	Th17_downOnly.txt	Th17_downOnly	1248	0	6	4	0.0996980552479	1	Hist1h1d Mllt3 Oxct1 Ptprc

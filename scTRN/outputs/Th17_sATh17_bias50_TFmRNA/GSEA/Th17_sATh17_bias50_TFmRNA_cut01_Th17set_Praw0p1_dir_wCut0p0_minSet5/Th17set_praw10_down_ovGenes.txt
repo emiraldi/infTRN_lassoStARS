@@ -1,0 +1,3 @@
+	Atf4	Fli1	Gtf2i	Hivep3	Irf8	Jund	Maf	Max	Nrf1	Rara	Stat1	Stat5a
+Th17_downOnly							Acsl5 Asf1a B4galnt1 Btla Bzw2 Casp3 Ccdc50 Ccng1 Cd44 Cd81 Celf2 Cenpw Cox17 Cyp51 Dcp2 Erap1 Gimap4 Grap Igtp Inpp4b Itgb1 Itm2a Lrmp Mllt3 Myo6 Oxct1 Psme2 Ptprc Rab8b Rilpl2 Samsn1 Sell Snhg6 Tapbp Tlk1 Tnfaip8 Utp20			Celf2 Cenpw Igtp Mllt3 Psme2		
+Th17_upOnly	Cpd Ikzf3 Lgals1 Maf Rora	Cpd Furin Il17f Itgam Lgals1 Rnf149 Rora	Cysltr1 Gmfg Il17f Lgals1 Pdpn	Aqp3 Crip1 Gngt2 Klhl6 Klrd1 Lgals1 Mt2 Serpinb1a Timp1	Dst Il10 Itgam Maf Pmepa1 Rora	Ccl20 Ctla2b Il17a Il17f Il1r1 Il21 Maf Pdpn Rora Tnip2		Acsl4 Cpd Dst Maf Pdpn Sept9	AA467197 Abi3 Emp3 Mt2 Rnf149		AA467197 Ctla2a Emp1 Il10 Il17a Il21 Lgals1 Lpxn Mt1 Mt2 Pdpn Procr Rnf149 Rora Timp1	Ctla2a Cyth4 Il17a Il9

@@ -1,0 +1,3 @@
+	Arid5a	Atf6	Bach2	Batf	Cdc5l	Cebpg	Creb3	Dnmt1	Elf2	Elk3	Fli1	Fosl2	Foxo1	Foxp1	Gtf2i	Hivep2	Hmg20b	Hmgb1	Irf2	Irf4	Jrkl	Jun	Junb	Jund	Lef1	Maf	Maz	Mef2a	Mlx	Mxd1	Nfe2l1	Nfe2l2	Nfkb2	Nme2	Pknox1	Pou2af1	Pura	Runx1	Ski	Skil	Srebf1	Srebf2	Stat3	Trp53	Trps1	Ybx1	Zfp1	Zfp148	Zfp260	Zfp318	Zfp410	Zfp664	Zfx	Zkscan1
+Th17_downOnly	5	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	13	0	30	0	0	0	0	0	15	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	5	0	0	0	0	0	0	14
+Th17_upOnly	0	34	15	83	0	64	6	5	19	10	24	65	49	40	36	19	0	30	0	18	51	46	25	17	0	16	50	0	36	39	33	8	9	6	16	7	30	8	15	35	17	17	72	0	61	18	0	45	4	18	7	30	15	0
