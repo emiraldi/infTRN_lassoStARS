@@ -1,0 +1,16 @@
+	ARID3A	ASCL2	BATF3	BCL11A	DBP	DNMT1	ETS2	HMG20B	HMGN3	IRF1	IRF5	IRF7	IRF9	JUNB	MECP2	MITF	MSANTD3	MXD4	NFE2L2	NFKB2	NR3C1	PKNOX1	POU2F2	PPARG	RBPJ	REL	RELA	SOX4	STAT1	STAT2	STAT3	STAT4	STAT5A	ZNF267	ZNF444
+Cholesterol_Biosynthesis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	3	0	0	3	0	0	0	0	0	0	0	0
+Complement_Activation,_Classical_Pathway	0	0	2	2	0	0	4	0	2	0	0	0	0	0	0	0	0	0	4	0	3	4	0	0	3	0	0	0	0	0	0	2	4	0	0
+EBV_LMP1_signaling	0	0	0	0	2	0	4	0	0	0	0	0	0	0	0	0	0	0	4	5	2	5	0	3	0	4	2	0	3	2	0	4	0	0	0
+Eicosanoid_Synthesis	0	2	0	0	3	0	0	0	0	3	0	2	2	0	0	0	4	0	0	0	2	3	0	4	2	0	3	0	4	0	0	0	0	0	0
+IL1_and_megakaryotyces_in_obesity	0	0	9	0	5	0	10	2	5	0	0	0	0	3	0	2	0	0	4	3	6	7	7	0	7	2	3	0	0	0	4	5	4	0	0
+NRF2_pathway	4	0	8	9	5	0	10	4	0	0	0	0	0	8	0	7	0	0	12	9	7	15	0	0	10	4	8	0	0	0	10	9	0	0	0
+Oxidative_Stress	3	2	5	3	2	0	6	2	0	4	2	0	0	0	0	0	0	0	6	5	5	9	5	6	5	2	5	4	5	0	3	5	2	0	2
+Oxidative_phosphorylation	0	0	0	0	0	0	0	0	0	0	3	4	4	0	0	0	0	4	0	0	0	0	4	0	0	0	0	0	0	4	0	0	0	0	0
+Pathogenic_Escherichia_coli_infection	0	0	0	4	0	6	0	7	4	0	0	0	0	3	0	0	0	0	5	0	0	0	0	7	0	0	5	0	5	0	0	0	0	4	0
+Prostaglandin_Synthesis_and_Regulation	0	2	6	0	6	0	4	2	2	4	0	0	2	0	0	2	2	0	5	3	3	6	0	3	3	0	0	0	4	0	0	0	0	0	2
+Spinal_Cord_Injury	0	0	8	0	5	0	10	0	0	7	0	7	0	0	0	3	0	0	10	0	11	15	8	0	9	0	0	0	8	7	6	10	4	0	0
+TP53_Network	0	0	0	2	0	0	0	3	0	0	0	0	0	3	0	0	0	0	3	0	0	0	3	0	0	0	2	5	3	0	0	0	0	0	0
+TSLP_Signaling_Pathway	0	0	7	0	0	0	6	0	0	4	0	4	0	0	0	0	0	0	8	8	0	8	4	6	0	2	0	0	4	4	6	6	2	0	0
+Toll-like_receptor_signaling_pathway	0	0	8	5	0	0	12	0	6	0	4	6	6	0	0	0	0	0	12	9	10	15	5	7	6	4	6	0	8	7	8	8	5	0	0
+Type_II_interferon_signaling_(IFNG)	5	5	5	8	3	0	7	0	0	11	8	12	10	6	0	3	0	0	9	9	3	13	8	8	4	2	8	5	11	10	9	8	3	0	5

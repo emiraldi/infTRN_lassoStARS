@@ -1,0 +1,108 @@
+	ARID3A	ARNT	ASCL2	ATF3	BATF3	ETS2	ETV5	FOS	FOXO3	HLX	HMG20B	HMGA1	HMGN3	IRF1	IRF8	JUNB	JUND	KLF10	KLF3	KLF6	LYL1	MAFB	MSC	NFE2L1	NFE2L2	NR3C1	PKNOX1	PLSCR1	RUNX1	SOX4	TCF4	TCF7L2	TFDP2	TGIF1	TSC22D1	YBX1	ZEB2	ZNF385A
+AGE/RAGE_pathway	MMP7 STAT1							MMP7 NCF1 NFKBIA STAT1				HIF1A MMP7 NCF1 NFKBIA														LGALS3 NCF1	HIF1A MMP14 NCF1 NFKB1 NFKBIA									HIF1A MMP7 NCF1 NFKBIA STAT1		
+Adipogenesis			PLIN2 SOCS3 STAT1				CDKN1A ID3					AHR CEBPD CFD HIF1A KLF6 NAMPT															AHR CEBPD HIF1A KLF6 NAMPT NR3C1 PCK2 SOCS3 STAT2									HIF1A NAMPT NR3C1 STAT1		
+Allograft_Rejection			CD40 CD86 STAT1	HLA-DRB5 IL1B IL2RA					C3 TUBA1A TUBA1B	LRRK2 VIM		CD80 IL1B IL2RA LRRK2	IL1B TUBA1A														CD80 CD86 IL1B IL2RA LRRK2 VIM			CD40 CD86 VIM						CD80 CD86 IL1B STAT1		
+Alzheimers_Disease																													CALM1 CALM3									
+Amyotrophic_lateral_sclerosis_(ALS)																														BID CASP1								
+Androgen_receptor_signaling_pathway							CDKN1A NCOA4																															
+Angiogenesis						MMP9 TIMP3			FLT1 TIMP3																													
+Apoptosis	CASP1 IRF1 TNFSF10							CARD16 MCL1 NFKBIA				CARD16 IRF1 MCL1 MDM2 NFKBIA TNFSF10															CARD16 IRF1 IRF7 MCL1 NFKB1 NFKBIA TNFSF10			BID BIRC3 CASP1 CDKN2A PMAIP1 TNFSF10						CFLAR IRF1 IRF7 NFKBIA TNFSF10	CYCS TNFRSF1B	
+Apoptosis-related_network_due_to_altered_Notch3_in_ovarian_cancer	NQO1 SQSTM1					GCLC HSPB1 TNFRSF21				IL7R VIM				GCLC TNFRSF21												GCLC NGFRAP1 TNFRSF21	IL7R NFKB1 NQO1 RIPK2 SOCS3 VIM			CDKN1A HSPA5 VIM								
+Arrhythmogenic_right_ventricular_cardiomyopathy_(ARVC)																																ACTB ACTG1						ACTB ACTG1
+Aryl_Hydrocarbon_Receptor	CCL1 CYP1B1 NQO1				CD36 GCLC	CD36 GCLC					CYP1B1 NQO1	AHR CCL1 KLF6 NFE2L2		CD36 GCLC													AHR KLF6 NFE2L2 NFKB1 NQO1			CCL1 CDKN1A LPL							CDKN1A HSP90AA1	
+Aryl_Hydrocarbon_Receptor_Pathway	CYP1B1 NQO1			AHR IL1B							CYP1B1 NQO1	AHR IL1B JUNB NFE2L2															AHR IL1B NFE2L2 NQO1											
+Arylhydrocarbon_receptor_(AhR)_signaling_pathway	CYP1B1 NQO1										CYP1B1 NQO1																AHR NFE2L2 NQO1										CDKN1A HSP90AA1	
+BCL-XL_prevents_the_binding_of_truncated_BID_to_BAX._This_is_prevented_by_BAD._BAD_can_displace_tBID_from_BCL-XL.___			BID BIRC3 CCL2							GLUL TXN																	CCL2 GLUL MAP3K8 NFKB1 NFKB2 NFKBIA TXN									CFLAR GLUL MAP3K8 NFKBIA TXN	HSP90AA1 TNFRSF1B	
+BDNF_signaling_pathway								NCF1 NFKBIA STAT1																												MARCKS NCF1 NCF2 NFKBIA SPP1 STAT1		
+Bladder_Cancer																														CDKN1A CDKN2A								
+Calcium_Regulation_in_the_Cardiac_Cell						CALR FKBP1A RGS1 RGS20			CALR CAMK1 FKBP1A RGS16 YWHAQ							ANXA6 ATP2B1 SLC8A1									CALR FKBP1A PRKACB RGS16 RGS20 YWHAQ													
+Cell_Cycle																														CDKN1A CDKN2A YWHAH								
+Cholesterol_Biosynthesis									FDPS MSMO1 SQLE																							FDPS SQLE						
+Complement_Activation,_Classical_Pathway												C1QA C1QB	C1QC CD55														C1QA C1QB C1QC										C1QA C3	
+Complement_and_Coagulation_Cascades	C1QC CLU						C1QA CLU					C1QA C1QB CFD CLU SERPINA1	C1QC C5AR1 CD55 PLAUR									CLU F3					C1QA C1QB C1QC PLAUR SERPINA1 SERPING1										C1QA C3 F3	
+Cytochrome_P450											CYP1B1 CYP27A1																											
+Cytokines_and_Inflammatory_Response				CXCL2 IL1B								CXCL2 IL1B	CXCL2 IL1B					CXCL2 IL1B																				
+DNA_Damage_Response			BID NBN																			CCND1 CCND2 CYCS								BID CDKN1A PMAIP1							CDKN1A CYCS	
+DNA_Damage_Response_(only_ATM_dependent)																														CDKN1A PMAIP1 SOD2								
+Diurnally_Regulated_Genes_with_Circadian_Orthologs				DNAJA1 G0S2 GSTP1 NCOA4								BTG1 G0S2 GSTP1 NCOA4															BTG1 DNAJA1 G0S2 NCOA4 PSMA4			BTG1 PSMA4								
+EBV_LMP1_signaling								CCL5 NFKB2 NFKBIA																			CCL20 CCL5 NFKB1 NFKB2 NFKBIA									CCL20 CCL5 NFKBIA		
+Eicosanoid_Synthesis				LTA4H PTGES	LTA4H PTGDS				ALOX5AP PTGS1					ALOX5AP LTA4H TBXAS1								ALOX5AP PTGDS																
+Electron_Transport_Chain						ATP5G3 COX5B NDUFB6 NDUFB9 SLC25A5									COX5B UCP2					ATP5G3 MT-ND2 NDUFB6 SLC25A5		ATP5G3 COX5B NDUFB6 NDUFB9 SLC25A5	MT-CYB MT-ND5 NDUFB9		ATP5G3 COX5B MT-ND2 NDUFB9 UCP2	COX5B SLC25A5		MT-CYB MT-ND2 MT-ND4 MT-ND5 NDUFB9 UCP2						COX5B NDUFB6 NDUFB9				
+Endothelin_Pathways		GNA15 PTGIR																																				
+Estrogen_metabolism	CYP1B1 NQO1										CYP1B1 NQO1 SULT1A1																											
+Fatty_Acid_Beta_Oxidation													ACSL4 LPL																									
+Focal_Adhesion									ACTB ACTG1 CCND2 FGR FLT1 SPP1																							ACTB ACTG1 FLT1						ACTB ACTG1
+Folate_Metabolism								NFKB2 SOD2		ABCA1 SOD2																	IL1B NFKB1 NFKB2 SOD2											
+GPCRs,_Class_A_Rhodopsin-like																	FPR1 GPR34																		CXCR4 GPR34 P2RY11			
+Gastric_cancer_network_2																											CD48 PLAC8 RNF144B									CD48 PLAC8		
+Glutathione_metabolism																									GCLC GPX3													
+Glycolysis_and_Gluconeogenesis						MDH1 MPC2			FBP1 MDH1 MPC2				LDHA SLC2A3	FBP1 LDHB								FBP1 MDH1 MPC2			FBP1 MDH1 MPC2						FBP1 MPC2			FBP1 MPC2				
+ID_signaling_pathway																															ID2 ID3							
+IL-1_signaling_pathway													CCL2 IL1B														CCL2 IL1B NFKB1 NFKBIA											
+IL-2_Signaling_Pathway			SOCS3 STAT1																																			
+IL-3_Signaling_Pathway																											CD86 HCK IL3RA LYN									CD86 IL3RA LYN		
+IL-4_Signaling_Pathway			SOCS3 STAT1					NFKBIA STAT1								DOK2 FOS																						
+IL-5_Signaling_Pathway																																				LYN STAT1		
+IL-6_signaling_pathway	IRF1 STAT1		SOCS3 STAT1									HCK IRF1 JUNB																								IRF1 STAT1 TIMP1		
+IL-7_Signaling_Pathway								IL7R STAT1				IL2RA IL7R																										
+IL1_and_megakaryotyces_in_obesity				IL1B TLR2								IL18 IL1B TLR2	CCL2 IL1B S100A9 TIMP1 TLR2					IL1B S100A9									CCL2 ICAM1 IL18 IL1B NFKB1 TLR2									ICAM1 IL1B TIMP1		
+Inflammatory_Response_Pathway			CD40 CD86																								CD80 CD86 IL2RA			CD40 CD86						CD80 CD86		
+Integrated_Pancreatic_Cancer_Pathway																													ANXA1 HSP90AB1	BID CD82 CDKN2A HSP90AB1 INHBA JUNB								
+Interferon_type_I			SOCS3 STAT1																					PDCD4 PTPRC			PTPRC SOCS3 STAT2 STAT4											
+Interferon_type_I_signaling_pathways			SOCS3 STAT1																					PDCD4 PTPRC			PTPRC SOCS3 STAT2 STAT4											
+Interleukin-11_Signaling_Pathway			SOCS3 STAT1																																			
+Kit_receptor_signaling_pathway																																				LYN MATK STAT1		
+Leptin_signaling_pathway			SOCS3 STAT1										IL1B IL1RN																							IL1B PTPN1 STAT1		
+MAPK_Signaling_Pathway																																	CD14 DUSP1					
+Matrix_Metalloproteinases						MMP9 TIMP3							MMP19 TIMP1												MMP19 TIMP3											MMP7 TIMP1		
+Metapathway_biotransformation											AKR1B1 CYP1B1 CYP27A1 SULT1A1													GSTP1 SULT1A1														
+Monoamine_Transport																																				IL1B PVRL2		
+Myometrial_Relaxation_and_Contraction_Pathways									ACTB ACTG1 RGS16 YWHAQ																					ACTG1 ATF3 ATF4 YWHAH		ACTB ACTG1						ACTB ACTG1
+NOD_pathway								AIM2 CARD16 IL18 NFKBIA				AIM2 CARD16 IL18 IL1B NFKBIA															AIM2 CARD16 IL18 IL1B NFKBIA RIPK2											
+NRF2_pathway												FTH1 GSTP1 NFE2L2 SERPINA1 SLC2A3 SLC39A8															FTH1 HSPA1A NFE2L2 NQO1 SERPINA1 SLC2A6 SLC39A8 SLC7A11 TXN								BLVRB GSTP1	FTH1 HSPA1A SERPINA1 SLC7A11 TXN		
+Oncostatin_M_Signaling_Pathway			CCL2 SOCS3 STAT1					NFKBIA STAT1																			CCL2 HIF1A NFKB1 NFKBIA SOCS3									HIF1A NFKBIA STAT1		
+Osteoclast_Signaling																									ACP5 SPP1													
+Oxidation_by_Cytochrome_P450											CYP1B1 CYP27A1																											
+Oxidative_Stress	NQO1 SOD2				GCLC MGST1	GCLC MGST1				NFE2L2 SOD2	MT1X NQO1	JUNB MT1X NFE2L2 SOD2										GPX3 JUNB			GCLC GPX3 MGST1	GCLC MGST1	MT1X NFE2L2 NFKB1 NQO1 SOD2			JUNB SOD2								
+Oxidative_phosphorylation					ATP6AP2 NDUFB9	ATP5G3 ATP6AP2 NDUFB6 NDUFB9														ATP5G3 MT-ND2 NDUFB6		ATP5G3 NDUFB6 NDUFB9	MT-ATP6 MT-ND5 NDUFB9		ATP5G3 ATP6AP2 MT-ND2 NDUFB9			MT-ATP6 MT-ND2 MT-ND4 MT-ND5 NDUFB9						NDUFB6 NDUFB9				
+Parkin-Ubiquitin_Proteasomal_System_pathway								CARD16 UBE2L6	HSPA8 TUBA1A TUBA1B TUBB2A TUBB4B																												HSPA8 TUBA4A TUBB4B	
+Pathogenic_Escherichia_coli_infection				CD14 YWHAQ					ACTB ACTG1 TUBA1A TUBA1B TUBB2A TUBB4B YWHAQ				ACTB ACTG1 CD14 TUBA1A	ACTB TUBB2A		CD14 CTNNB1					ACTB NCL				TUBA1B TUBB2A TUBB4B YWHAQ							ACTB ACTG1 TUBA1A	CD14 TUBA1A				TUBA4A TUBB4B	ACTB ACTG1
+Primary_Focal_Segmental_Glomerulosclerosis_FSGS		PLAUR SCARB2														CTNNB1 LIMS1																						
+Prostaglandin_Synthesis_and_Regulation		HSD11B1 PTGIR			HPGD PTGDS				HPGD PTGS1													HPGD PTGDS	ANXA6 TBXAS1				HSD11B1 PTGER2 PTGIR S100A10				HPGD PTGDS						ANXA1 S100A10	
+Proteasome_Degradation																														PSMA4 PSME1 PSME2								
+Quercetin_and_Nf-kB/_AP-1_Induced_Cell_Apoptosis																											NFE2L2 NFKB1											
+Quercetin_and_Nf-kB/_AP-1_induced_cell_apoptosis																											NFE2L2 NFKB1											
+RANKL/RANK_Signaling_Pathway	SQSTM1 STAT1							NFKB2 NFKBIA STAT1																			ICAM1 LYN NFKB1 NFKB2 NFKBIA									ICAM1 LYN NFKBIA STAT1		
+Regulation_of_Actin_Cytoskeleton							CD14 TMSB4X														ACTB TMSB4X											ACTB ACTG1 MRAS						ACTB ACTG1
+Regulation_of_toll-like_receptor_signaling_pathway			CD40 CD86 STAT1					CCL5 NFKB2 NFKBIA STAT1		CCL3 CCL4 CCL5		CCL3 CCL4 CD14 CD80 IL1B NFKBIA TLR2	CCL3 CCL4 CD14 IL1B SPP1 TLR2					CCL4 IL1B									CCL3 CCL4 CCL5 CD14 CD80 CD86 IL1B IRF7 MAP3K8 NFKB1 NFKB2 NFKBIA TLR2									CCL3 CCL4 CCL5 CD80 CD86 IL1B IRF7 MAP3K8 NFKBIA SPP1 STAT1		
+SIDS_Susceptibility_Pathways																												MT-ND2 YBX1										
+SREBP_signalling						DBI MDH1 SCD			FDPS INSIG1 LPL MDH1 PPARG SQLE																FDPS INSIG1 MDH1 PPARG	DBI MDH1 SCD						FDPS LPL SQLE						
+Selenium_Micronutrient_Network										ABCA1 KYNU SOD2 TXN												ALOX5AP GPX3 PRDX2					CCL2 ICAM1 IL1B KYNU NFKB1 NFKB2 SOD2 TXN							ALOX5AP GPX3		ICAM1 IL1B KYNU TXN		
+Selenium_Pathway										ABCA1 KYNU SOD2 TXN												ALOX5AP GPX3 PRDX2					CCL2 ICAM1 IL1B KYNU NFKB1 NFKB2 SOD2 TXN							ALOX5AP GPX3		ICAM1 IL1B KYNU TXN		
+Senescence_and_Autophagy	IRF1 SQSTM1									CCL3 CD44		CCL3 CD44 CREG1 IFI16 IL1B IRF1 MDM2	CCL3 IL1B INHBA						IRF7 MAP1LC3A SPARC	HMGA1 SPARC			CDKN2A SPARC				CCL3 CD44 CREG1 IFI16 IL1B INHBA IRF1 IRF7 MAP1LC3A MMP14			CDKN1A CDKN2A INHBA						CCL3 CD44 CREG1 IL1B IRF1 IRF7 MAP1LC3A	CCL3 CDKN1A	
+Small_Ligand_GPCRs												PTAFR PTGIR															PTAFR PTGER2 PTGIR											
+Spinal_Cord_Injury												ANXA1 BTG2 C1QB CXCL2 FCGR2A IL1B TNFSF13B	CCL2 CXCL2 IL1B					CXCL2 IL1B							CCND1 FKBP1A LGALS3 MBP RHOC		C1QB CCL2 CD47 CXCL2 FCGR2A ICAM1 IL1B TNFSF13B VIM											
+Statin_Pathway									LPL SQLE																							LPL SQLE						
+Striated_Muscle_Contraction						MYL9 TNNI2			ACTG1 TPM2				ACTG1 TPM4	TNNI2 TPM2											MYL9 TNNI2 TPM2					ACTG1 VIM								ACTG1 TPM4
+Sulindac_Metabolic_Pathway											CYP1B1 MSRB2																											
+TCR_Signaling_Pathway								IL15RA NFKBIA TNFRSF9																			IL15RA IL1B MAP3K8 NFKB1 NFKBIA RIPK2 VIM											
+TGF_Beta_Signaling_Pathway			INHBA STAT1										INHBA SPP1			CTNNB1 FOS																						
+TOR_Signaling		DDIT4 PRKAA1																																				
+TP53_Network												MDM2 TNFSF10																		BID CDKN1A CDKN2A PMAIP1 TNFSF10								
+TSH_signaling_pathway			MYL12A STAT1																																			
+TSLP_Signaling_Pathway								IL7R NFKB2 NFKBIA STAT1		IL7R STAT4		HCK IL2RA IL7R NFKBIA STAT4															HCK IL2RA IL7R LYN NFKB1 NFKB2 NFKBIA STAT4									LYN NFKBIA STAT1		
+TWEAK_Signaling_Pathway			BIRC3 CCL2					CCL5 NFKB2 NFKBIA								CTNNB1 TNFSF12											CCL2 CCL5 NFKB1 NFKB2 NFKBIA											
+Tamoxifen_metabolism											CYP1B1 SULT1A1																											
+Toll-like_receptor_signaling_pathway			CD40 CD86 STAT1	CD14 IL1B TLR2				CCL5 NFKB2 NFKBIA STAT1		CCL3 CCL4 CCL5		CCL3 CCL4 CD14 CD80 IL1B NFKBIA TLR2	CCL3 CCL4 CD14 IL1B SPP1 TLR2					CCL4 IL1B									CCL3 CCL4 CCL5 CD14 CD80 CD86 IL1B IRF7 MAP3K8 NFKB1 NFKB2 NFKBIA TLR2									CCL3 CCL4 CCL5 CD80 CD86 IL1B IRF7 MAP3K8 NFKBIA SPP1 STAT1		
+Trans-sulfuration_and_one_carbon_metabolism																														MTHFD2 PHGDH PSAT1								
+Transcriptional_activation_by_NRF2																											NFE2L2 NQO1 SLC7A11											
+Tryptophan_metabolism											ALDH1A1 CYP1B1	ALDH2 IDO1 MDM2 WARS																										
+Type_II_interferon_signaling_(IFNG)	IFI6 IFNGR2 IRF1 ISG15 STAT1		IFNGR2 ISG15 OAS1 SOCS3 STAT1	CYBB IFNGR1 IL1B				EIF2AK2 IFIT2 ISG15 STAT1		GBP1 OAS1		IFI6 IL1B IRF1 ISG15															CYBB GBP1 ICAM1 IFIT2 IFNGR1 IFNGR2 IL1B IRF1 ISG15 OAS1 SOCS3 STAT2			GBP1 ICAM1 IFI6 OAS1						ICAM1 IFI6 IL1B IRF1 ISG15 STAT1		
+Vitamin_A_and_Carotenoid_Metabolism					ALDH1A1 CD36	CD36 CRABP2			CRABP2 LPL		ALDH1A1 SULT1A1			CD36 CRABP2		CD36 SULT1A1																						
+Vitamin_B12_Metabolism								CCL5 NFKB2 SOD2		ABCA1 CCL5 SOD2																	CCL5 IL1B NFKB1 NFKB2 SOD2									CCL5 IL1B		
+Wnt_Signaling_Pathway_and_Pluripotency										CD44 LRRK2																												
+metapathway_biotransformation											AKR1B1 CYP1B1 CYP27A1 SULT1A1													GSTP1 SULT1A1														
+miR-targeted_genes_in_leukocytes_-_TarBase									CD164 LPL PNP TUBA1A TUBA1B YWHAQ																CD164 HMGA1 MCL1 POLE4 SH3BGRL3 TUBA1B YWHAQ							LPL TUBA1A	LPL TUBA1A					
+miR-targeted_genes_in_lymphocytes_-_TarBase																																	LPL TPM2 TUBA1A					
+miR-targeted_genes_in_muscle_cell_-_TarBase																				GSTM4 HMGA1 SPARC													LPL TPM2					
+miRNA_Regulation_of_DNA_Damage_Response																						CCND1 CCND2 CYCS								BID CDKN1A PMAIP1							CDKN1A CYCS	

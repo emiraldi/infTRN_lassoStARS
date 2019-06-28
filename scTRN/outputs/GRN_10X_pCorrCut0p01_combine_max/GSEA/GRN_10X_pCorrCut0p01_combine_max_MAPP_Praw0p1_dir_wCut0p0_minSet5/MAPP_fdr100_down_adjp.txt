@@ -1,0 +1,9 @@
+	ARID3A	ASCL2	FOXO3	HMGN3	PKNOX1	PLSCR1	SOX4	YBX1
+Electron_Transport_Chain	1	1	1	1	1	0.0153700398885	1	1
+IL1_and_megakaryotyces_in_obesity	1	1	1	0.0380802719163	1	1	1	1
+Oxidative_phosphorylation	1	1	1	1	1	0.0373928019854	1	1
+Pathogenic_Escherichia_coli_infection	1	1	0.202720121158	1	1	1	1	1
+Regulation_of_toll-like_receptor_signaling_pathway	1	1	1	1	1	1	1	0.0566759167914
+TP53_Network	1	1	1	1	1	1	0.0510401343235	1
+Toll-like_receptor_signaling_pathway	1	1	1	1	0.490163148298	1	1	0.00199218400701
+Type_II_interferon_signaling_(IFNG)	0.00698110894242	0.0656652445958	1	1	2.27212629333e-06	1	1	0.0964258591941

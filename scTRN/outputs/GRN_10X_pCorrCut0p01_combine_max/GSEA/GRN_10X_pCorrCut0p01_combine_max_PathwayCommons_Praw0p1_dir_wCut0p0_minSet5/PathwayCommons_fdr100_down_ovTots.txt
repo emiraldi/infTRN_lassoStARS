@@ -1,0 +1,11 @@
+	ARID3A	ASCL2	FOS	FOXO3	HMGA1	PKNOX1	PLSCR1	SOX4	YBX1
+Cytokine_Signaling_in_Immune_system	10	8	6	0	10	25	0	6	12
+IL12-mediated_signaling_events	3	0	5	0	11	16	0	0	8
+Immune_System	12	10	13	0	27	49	0	12	20
+Interferon_Signaling	8	7	6	0	7	17	0	4	8
+Interferon_alpha/beta_signaling	7	5	5	0	6	13	0	4	7
+PERK_regulated_gene_expression	0	0	0	0	0	0	0	4	0
+Respiratory_electron_transport	0	0	0	0	0	0	6	0	0
+Respiratory_electron_transport,_ATP_synthesis_by_chemiosmotic_coupling,_and_heat_production_by_uncoupling_proteins.	0	0	0	0	0	0	7	0	0
+The_citric_acid_(TCA)_cycle_and_respiratory_electron_transport	0	0	0	0	0	0	7	0	0
+superpathway_of_cholesterol_biosynthesis	0	0	0	5	0	0	0	0	0

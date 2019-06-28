@@ -1,0 +1,17 @@
+	ARID5B	ATF4	BATF3	CUX1	DBP	ETS2	HIF1A	IRF1	IRF3	IRF5	IRF7	IRF8	IRF9	JUNB	MXD4	NFE2L2	NFKB2	NR3C1	PLSCR1	PPARG	RELA	STAT1	STAT2	STAT3	STAT4	TCF4	ZNF274	ZNF394
+AP-1_transcription_factor_network	0	9	22	0	0	27	23	19	0	0	30	0	16	17	0	23	24	16	0	26	20	0	20	30	27	0	0	0
+Classical_antibody-mediated_complement_activation	0	0	0	0	0	3	0	0	3	0	0	0	0	0	0	3	0	3	0	0	0	0	0	0	0	0	0	0
+Cytokine_Signaling_in_Immune_system	2	9	14	6	5	11	11	18	0	10	21	8	16	11	0	21	14	4	11	18	12	20	15	21	16	6	7	11
+IFN-gamma_pathway	0	0	36	0	0	41	34	37	0	0	43	0	0	28	0	42	39	25	0	49	0	55	0	46	43	0	15	0
+IL12-mediated_signaling_events	4	0	12	0	4	12	5	8	5	4	10	0	6	0	0	12	14	7	0	11	9	11	10	11	9	0	0	6
+IL27-mediated_signaling_events	4	0	4	0	2	3	3	5	0	2	4	0	4	0	0	3	4	0	0	3	5	3	5	6	0	2	0	2
+IL3-mediated_signaling_events	0	0	35	0	0	40	34	37	0	0	43	0	0	28	0	0	39	24	0	49	0	55	0	45	42	0	15	0
+Immune_System	5	13	25	6	8	25	17	34	7	20	38	16	31	17	0	42	28	18	12	39	28	42	33	38	35	16	9	18
+Innate_Immune_System	0	0	6	0	0	8	5	10	4	6	11	5	10	4	0	13	0	11	0	12	6	14	12	9	13	5	0	0
+Integrin-linked_kinase_signaling	0	0	22	0	0	27	23	19	0	0	30	0	0	18	0	0	24	16	0	27	21	0	0	30	27	0	0	0
+Interferon_Signaling	0	8	7	5	0	4	6	15	2	9	16	8	12	8	0	13	10	3	8	16	10	17	12	16	10	5	6	9
+Interferon_alpha/beta_signaling	0	7	6	5	2	0	4	12	0	9	13	8	10	8	0	9	7	0	8	13	8	15	11	13	8	5	5	7
+Respiratory_electron_transport,_ATP_synthesis_by_chemiosmotic_coupling,_and_heat_production_by_uncoupling_proteins.	0	6	0	0	0	0	0	0	0	5	6	0	6	0	4	0	0	0	0	0	0	0	6	0	0	0	0	0
+The_citric_acid_(TCA)_cycle_and_respiratory_electron_transport	0	6	0	0	0	0	0	0	0	5	0	0	7	0	4	0	0	0	0	0	0	0	8	0	0	0	0	0
+Validated_transcriptional_targets_of_AP1_family_members_Fra1_and_Fra2	0	4	9	0	0	10	10	9	0	0	11	0	5	7	0	9	8	6	0	9	8	8	0	10	11	6	3	4
+prostanoid_biosynthesis	0	0	0	0	4	0	0	0	0	0	2	0	0	0	0	0	0	0	0	3	2	3	0	0	0	0	0	0
