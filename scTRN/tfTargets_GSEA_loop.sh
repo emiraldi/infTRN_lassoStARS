@@ -8,7 +8,7 @@
 
 # Note that geneset databases must be formatted as .txt files with background files 
 # following naming convention below
-setInDir="inputs/geneLists/gseaDatabases"
+setInDir="inputs/geneLists/gseaDatabases/human"
 bckgrndBit="_bckgrnd.txt"
 setBit=".txt"
 declare -a setNames=('KEGG' \
