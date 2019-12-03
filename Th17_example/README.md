@@ -1,12 +1,13 @@
-# scTRN
+# Th17_example
 
 This folder contains workflows for TRN analyses:
-* Gene-set enrichment analysis (GSEA) of a TF's positive and repressed target genes
-	* (optional) filter TF-gene interactions according to partial correlation: [filter_TRNs_by_pcorr.sh](filter_TRNs_by_pcorr.sh)
-	* runGSEA on each TF's positive and repressed target genes: [tfTargets_GSEA_loop.sh](tfTargets_GSEA_loop.sh)
-	* visualize enrichments with a heatmap: [visGSEAenrich_heatmaps_comb.m](visGSEAenrich_heatmaps_comb.m)
-* Identify "core" TF regulators for a subset of conditions or celltypes in the gene expression dataset (see: [Miraldi et al., 2019](https://genome.cshlp.org/content/early/2019/02/19/gr.238253.118))
-	* (optional) filter TF-gene interactions according to partial correlation: [filter_TRNs_by_pcorr.sh](filter_TRNs_by_pcorr.sh)
-	* run GSEA to test whether a TF's postive or repressed targets are enriched in condition or celltype gene signatures: [tfTargets_GSEA.sh](tfTargets_GSEA.sh)
-	* visualize "Top N" core TFs for the condition or celltype in a bargraph: [th17_coreAnalysis.m](th17_coreAnalysis.m)
-* Visualize TF degree, positive and negative edges, and overlap with TF-gene interactions in the prior: [viz_TF_degree.m](viz_TF_degree.m)
+* Basic TRN inference pipeline: [filter_TRNs_by_pcorr.sh](filter_TRNs_by_pcorr.sh)
+	* TRN construction
+	* precision-recall analysis with a gold standard of TF-gene interactions
+* TF-TF module analysis: Discovery of TFs that co-regulate gene pathways: [example_Th17_tfTfModules.m](example_Th17_tfTfModules.m)
+* Out-of-sample gene expression prediction: [example_workflow_Th17_r2Pred.m](example_workflow_Th17_r2Pred.m)
+	* includes calculation of R<sup>2</sup><sub>pred
+* Modeling of time-series gene expression with linear differential equations: [example_workflow_Th17_timeLag.m](example_workflow_Th17_timeLag.m), as in [Bonneau et al. (2006) Genome Biology](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2006-7-5-r36)
+* Combine TRNs using "max" or "mean" combine (e.g., models using TFA and TF mRNA): [combine_Th17_TRNs.m](combine_Th17_TRNs.m)
+* Visualize inferred "core" networks [vis_th17_coreAnalysis.m](vis_th17_coreAnalysis.m)
+	* Code to construct "core" networks is located [here](../scTRN)
