@@ -11,3 +11,6 @@ The resulting network can be visualized with TRN visualization software: [jp_gen
 Additional workflows are provided for:
 * [Out-of-sample gene expression prediction](Th17_example/example_workflow_Th17_r2Pred.m), including calculation of R<sup>2</sup><sub>pred
 * [Modeling of time-series gene expression with linear differential equations](Th17_example/example_workflow_Th17_timeLag.m), as in [Bonneau et al. (2006) Genome Biology](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2006-7-5-r36)
+* [TF-TF module analysis: Discovery of TFs that co-regulate gene pathways](Th17_example/example_Th17_tfTfModules.m)
+* [Gene-set enrichment analysis (GSEA) of a TF's positive and repressed target genes](scTRN)
+* [Visualize TF degree, positive and negative edges, and overlap with TF-gene interactions in the prior](scTRN/viz_TF_degree.m)
