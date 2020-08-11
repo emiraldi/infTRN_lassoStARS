@@ -9,9 +9,9 @@
 # INPUTS
 
 # script relies on prior-parsing code
-scriptHome="../priorParsingFxns"
+scriptHome="../priorConstruction"
 
-inputDir="outputs"
+inputDir="/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs"
 
 # list of networks to filter, expected to be in sparse format, e.g., as from 
 # 	buildTRNs_mLassoStARS.m, i.e., (top rows of example output):
@@ -19,8 +19,9 @@ inputDir="outputs"
 # 		Zhx1      D16Ertd472e     1       50.31   0.312   rgb(220,157,158)        2       None
 # 		Zkscan1   Il17f   -0.99738        50.28   -2.8E-01        rgb(157,181,227)        1.9994  2,2
 # 		Irf3      Il17f   -0.99477        50.26   -2.6E-01        rgb(160,182,227)        1.999   2,2
-declare -a inFileNames=("Th17_sATh17_bias50_sp.tsv" \
-	"Th17_sATh17_bias50_TFmRNA_sp.tsv")
+declare -a inFileNames=("TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp.tsv" \
+	"TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp.tsv" \
+	"TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp" \ "TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp.tsv")
 
 outputDirBase=${inputDir}
 	

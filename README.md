@@ -9,6 +9,7 @@ From gene expression data and tables of prior information, the [example Th17 wor
 The resulting network can be visualized with TRN visualization software: [jp_gene_viz](https://github.com/simonsfoundation/jp_gene_viz).
 
 Additional workflows are provided for:
+* [Construct a prior transcriptional regulatory network from ATAC-seq data](priorConstruction/readme.md)
 * [TF-TF module analysis: Discovery of TFs that co-regulate gene pathways](Th17_example/example_Th17_tfTfModules.m)
 * [Identify "core" TF regulators for a subset of conditions or celltypes in the gene expression dataset](scTRN)
 * [Gene-set enrichment analysis (GSEA) of a TF's positive and repressed target genes](scTRN)

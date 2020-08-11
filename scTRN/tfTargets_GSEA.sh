@@ -6,14 +6,16 @@
 # adjusted p-values, as well as other statistics, for downstream visualization (e.g., in 
 # MATLAB)
 
-geneSetAbbrev="Th17set"
-geneSetFile="../Th17_example/inputs/geneSets/Th17sets.txt"
-backgroundGeneFile="../Th17_example/inputs/geneSets/union_Th17genesMM10_Th17vTh0_FC0p58_FDR10.txt"
+geneSetAbbrev="geneSets_hMP_LPS"
+geneSetFile="/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/geneSets_GRN_hMP_LPS_DE_log2FC0p58_FDR10.txt"
+backgroundGeneFile="/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/inputs/gene_scRNA_Bryson_hMP_10X_QC_scater_N500M1_sct1000.txt"
 	
 # Network files (NOTE: for signed-analysis of TF targets, we work with TRNs where edges 
 # have been filtered based on partial correlation, e.g., as in filter_TRNs_by_pcorr.sh
-declare -a networkFiles=("outputs/Th17_sATh17_bias50/Th17_sATh17_bias50_cut01_sp.tsv" \
-	"outputs/Th17_sATh17_bias50_TFmRNA/Th17_sATh17_bias50_TFmRNA_cut01_sp.tsv")
+declare -a networkFiles=("/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv" \
+	"/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp_pCorrCut0p01.tsv" \
+	"/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv" \
+	"/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp_pCorrCut0p01.tsv")
 
 scriptHome="../infLassoStARS"
 

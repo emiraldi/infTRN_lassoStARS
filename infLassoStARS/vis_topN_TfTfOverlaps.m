@@ -315,6 +315,17 @@ if saveFig
     fp = fillPage(gcf, 'margins', [0 0 0 0], 'papersize', [xSize ySize]); print('-painters','-dpdf','-r100',[subfigname '.pdf'])
     saveas(gcf,[subfigname],'fig')
     disp([subfigname])  
+    % Save ordered TFs
+	fid = fopen([subfigname,'_TF_order_top.txt'],'w');
+	for ix = 1:length(currLabels)
+		if (ismember(ix,topStarts))
+			currStr = [num2str(1),'	',char(currLabels(ix))];
+		else
+			currStr = [num2str(0),'	',char(currLabels(ix))];
+		end
+		fprintf(fid,'%s\n',currStr);
+	end
+	fclose(fid);
 end
 
 %% 5. similarity matrix based on raw overlaps

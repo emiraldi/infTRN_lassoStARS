@@ -16,27 +16,34 @@ currDir = '..';
 addpath(fullfile(currDir,'customMatlabFxns'))
 
 %% TFA scTRN
-outFileBase = 'outputs/Th17_sATh17_bias50/GSEA/Th17_sATh17_bias50_cut01_Th17set_Praw0p1_dir_wCut0p0_minSet5';
+%outFileBase = 'outputs/Th17_sATh17_bias50/GSEA/Th17_sATh17_bias50_cut01_Th17set_Praw0p1_dir_wCut0p0_minSet5';
+%outFileBase = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/GSEA/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv_geneSets_hMP_LPS_Praw0p1_dir_wCut0p0_minSet5';
+outFileBase = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/GSEA/TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv_geneSets_hMP_LPS_Praw0p1_dir_wCut0p0_minSet5';
+
 titleBit = 'scTRN TFA';
-outDir0 = 'outputs/Th17_sATh17_bias50/th17Cores';
+
+%outDir0 = 'outputs/Th17_sATh17_bias50/th17Cores';
+outDir0 = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs/GRN_cores';
 
 %% TF mRNA scTRN
 % outFileBase = 'outputs/Th17_sATh17_bias50_TFmRNA/GSEA/Th17_sATh17_bias50_TFmRNA_cut01_Th17set_Praw0p1_dir_wCut0p0_minSet5';
 % titleBit = 'scTRN TF mRNA';
 % outDir0 = 'outputs/Th17_sATh17_bias50_TFmRNA/th17Cores';
 
-
-potRegList = 'inputs/geneLists/TF_mm10_201804_Subset_data_bryson_scRNAseq_Th17_raw_QC_scater_pctExp5.txt';
+%potRegList = 'inputs/geneLists/TF_mm10_201804_Subset_data_bryson_scRNAseq_Th17_raw_QC_scater_pctExp5.txt';
+potRegList = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/inputs/TF_scRNA_Bryson_hMP_10X_QC_scater_N500M1_union_ExpSCT_TFASCT_50pctl.txt';
 topN = 15;
 
 padjSat = .001; % heatmap will be saturated for p-values more significant than this
 padjMin = 1E-15; % max for adjusted p-value
-setInfIn = 'Th17set_fdr100';   % for input set
+%setInfIn = 'Th17set_fdr100';   % for input set
+setInfIn = 'geneSets_hMP_LPS_fdr100';
 FDR_cutoff = .01;   % cutoff for inclusion of enrichment in heatmap
-setInf = ['Th17Sets_fdr' num2str(100*FDR_cutoff) '_top' num2str(topN)];     % for output set
+setInf = ['geneSets_hMP_LPS_fdr' num2str(100*FDR_cutoff) '_top' num2str(topN)];     % for output set
 
-prevTh17tfInfs = {'c','../Th17_example/inputs/geneSets/ciofani_tfList_TableS2.txt';
-    'y','../Th17_example/inputs/geneSets/yosef_tfList.txt'};
+%prevTh17tfInfs = {'c','../Th17_example/inputs/geneSets/ciofani_tfList_TableS2.txt';
+%    'y','../Th17_example/inputs/geneSets/yosef_tfList.txt'};
+prevTh17tfInfs = {'BrysonCRISPR','/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/inputs/gene_Bryson_CRISPR_targets.txt'};
 
 outDir = fullfile([outDir0 '/' setInf]);
 mkdir(outDir)
@@ -52,8 +59,13 @@ lineWidth = .5;
 totClusts = 6;
 clim = -log10(padjSat);
 
-th17promActive = {'Th17 upOnly'};       % sets promoting Th17 through activation
-th17promRepress = {'Th17 downOnly'};    % sets promoting Th17 through repression
+%th17promActive = {'LPS upOnly'};       % sets promoting Th17 through activation
+%th17promRepress = {'LPS downOnly'};    % sets promoting Th17 through repression
+th17promActive = {'GeneUpMAST'};       % sets promoting Th17 through activation
+th17promRepress = {'GeneDownMAST'};    % sets promoting Th17 through repression
+%th17promActive = {'GeneUpSeurat'};       % sets promoting Th17 through activation
+%th17promRepress = {'GeneDownSeurat'};    % sets promoting Th17 through repression
+
 
 %% END parameters
 

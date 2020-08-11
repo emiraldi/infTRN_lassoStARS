@@ -19,15 +19,23 @@ addpath(fullfile(currDir,'infLassoStARS'))
 addpath(fullfile(currDir,'glmnet'))
 addpath(fullfile(currDir,'customMatlabFxns'))
 
-netDir = 'outputs';
+netDir = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/analysis/GRN/outputs';
 netStatsFolder = 'netStats';
 
-netFiles = {'prior_miraldi_Th17_48h_cut4_bp10000_sATAC_p1Em5_huA_bias50_TFmRNA_sp.tsv','scMeth_TFmRNA';
-    'prior_miraldi_Th17_48h_cut4_bp10000_sATAC_p1Em5_huA_bias50_sp.tsv','scMeth_TFA'};
+%netFiles = {'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv','Impute_NN20_TFA';
+%'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_Dist_CIDR_Sub_sct1k_Clust_NN_size20_adapt0_sigma1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp_pCorrCut0p01.tsv','Impute_NN20_TFmRNA';
+%'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv','log2_TPM_TFA';
+%'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp_pCorrCut0p01.tsv','log2_TPM_TFmRNA';
+%};
+netFiles = {
+'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_sp_pCorrCut0p01.tsv','log2_TPM_TFA';
+'TRN_scRNA_Bryson_hMP_10X_QC_scater_N500M1_Norm_tpm_pseudo1_log2_prior_ATAC_Bryson_MP_MACS_MOODS_p5_sGB10kb_bias50_TFmRNA_sp_pCorrCut0p01.tsv','log2_TPM_TFmRNA';
+};
 
 topN = 20; % number of Top-Degree TFs to include in the zoomed-in degree bar graph
-tfList = 'inputs/geneLists/th17_literatureCore_TFs.txt';
-tfList_figSuffix = '_litTFs'; % file suffix for degree bar graph from TFs provided in tfList
+tfList = '/Users/way5hl/Desktop/CCHMC/research/projects/scTRN/hMP/inputs/TF_scRNA_Bryson_hMP_10X_QC_scater_N500M1_union_ExpSCT_TFASCT_50pctl.txt';
+%tfList_figSuffix = '_litTFs'; % file suffix for degree bar graph from TFs provided in tfList
+tfList_figSuffix = '_PotRegTFs'; % file suffix for degree bar graph from TFs provided in tfList
 
 
 %% END Inputs

@@ -58,7 +58,7 @@ totNetworks = size(networkInfs,1);
 
 setInf = [ 'combSets_fdr' num2str(100*FDR_cutoff) '_top' num2str(topNtfSets) 'tfSets']; % for output
 titleInf = strrep([setInf],'_',' ');
-disp(titleInf)       
+disp(titleInf);
 
 for nind = 1:totNetworks
     tfsOfIntFile = networkInfs{nind}{2};

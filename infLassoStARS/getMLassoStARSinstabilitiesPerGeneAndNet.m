@@ -144,7 +144,7 @@ box on
 set(gca,'YTick',0:.05:.5)
 set(gca,'xscale','log')
 grid on
-axis([lambdaRange(1) lambdaRange(end) 0 .5])
+%axis([lambdaRange(1) lambdaRange(end) 0 .5])
 xlabel('\lambda Range','FontSize',fontSize)
 
 subplot(2,1,2)
@@ -155,5 +155,5 @@ box on
 set(gca,'YTick',0:.05:.5)
 set(gca,'xscale','log')
 grid on
-axis([lambdaRange(1) lambdaRange(end) 0 .5])
+%axis([lambdaRange(1) lambdaRange(end) 0 .5])
 xlabel('\lambda Range','FontSize',fontSize)

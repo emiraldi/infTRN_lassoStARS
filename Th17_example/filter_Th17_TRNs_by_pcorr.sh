@@ -9,7 +9,7 @@
 # INPUTS
 
 # script relies on prior-parsing code
-scriptHome="../priorParsingFxns"
+scriptHome="../priorConstruction"
 
 inputDir="outputs/networks_targ0p05_SS50_bS5/Network0p05_15tfsPerGene"
 
