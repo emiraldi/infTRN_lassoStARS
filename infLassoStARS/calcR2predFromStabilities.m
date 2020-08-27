@@ -7,7 +7,7 @@ function calcR2predFromStabilities(instabMat,stabilitiesMat,r2OutMat,modSizes)
 %   number of TFs per target gene (SSE = Sum of Square Errors)
 %% INPUTS:
 % instabMat -- .mat file of instabilities and related data from
-%   estimateInstabilitiesMLassoStars
+%   estimateInstabilitiesTRNbStARS.m or estimateInstabilitiesTRN.m
 % stabilitiesMat -- .mat output from
 %   getMLassoStARSnetworksQuantilePCorr_instabCut, where edges are ranked
 %   based on an instability cutoff (gene-wise or network-wise)
