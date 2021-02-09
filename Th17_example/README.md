@@ -4,6 +4,7 @@ This folder contains workflows for TRN analyses:
 * Basic TRN inference pipeline: [example_workflow_Th17.m](example_workflow_Th17.m)
 	* TRN construction
 	* precision-recall analysis with a gold standard of TF-gene interactions
+	* Further visualization of per-TF AUPRs as a heatmap (e.g., as in Fig. 2C of Miraldi et al) [visPerformanceByTfPrior_Th17.m ](visPerformanceByTfPrior_Th17.m)
 * TF-TF module analysis: Discovery of TFs that co-regulate gene pathways: [example_Th17_tfTfModules.m](example_Th17_tfTfModules.m)
 * Out-of-sample gene expression prediction: [example_workflow_Th17_r2Pred.m](example_workflow_Th17_r2Pred.m)
 	* includes calculation of R<sup>2</sup><sub>pred
