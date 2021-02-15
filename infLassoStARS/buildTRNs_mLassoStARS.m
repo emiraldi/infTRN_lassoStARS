@@ -124,7 +124,7 @@ figure(1), clf
 % hist(ssOfInt(:),0:totSS)
 vals = hist(ssOfInt(:),0:totSS);
 bar(1:totSS,vals(2:end))
-yMax = vals(2);%(totSS/50)*1E5;
+yMax = max(vals(2),1); % sometimes counts at subsamples = 1 is 0, so max ensures against plotting errors below -- (totSS/50)*1E5;
 hold on
 ssIn = totSS*(.5+ sqrt(.25-targInstability/2)); % inst = 2 * p * (1-p), solve for p to get minimum # of nonzero subsamples for edge to be in network at the instability cutoff
 plot(ssIn*[1 1], [0 yMax], 'r:','LineWidth',1.5)
