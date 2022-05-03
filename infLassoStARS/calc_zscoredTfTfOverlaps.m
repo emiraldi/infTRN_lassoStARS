@@ -107,7 +107,7 @@ elseif length(intersect({edgeOpt},{'comb'}))
         keepInds = find(currTargs<0); % negative
         currNegInts(keepInds,tfi) = currTargs(keepInds);
         keepInds = find(currTargs>0); % positive
-        currNegInts(keepInds,tfi) = currTargs(keepInds);
+        currPosInts(keepInds,tfi) = currTargs(keepInds);
     end                    
     currRegInts = [currPosInts; currNegInts];
     intsTot = 2*intsTot; % double because we could + and - edges to gene separately
