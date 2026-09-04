@@ -262,7 +262,7 @@ if length(priorMergedTfsFile) % there could be merged TFs
                 addInts = [addInts,allStabsTest(:,inputLocs)];
                 addPMat = [addPMat,inPriorMat(:,inputLocs)];
                 addQuants = [addQuants, allQuants(:,inputLocs)];
-                addCoefs = [addCoefs, allQuants(:,inputLocs)];
+                addCoefs = [addCoefs, allCoefs(:,inputLocs)];
                 addPredMat = [addPredMat ; predictorMat(inputLocs,:)];
                 addLoc = [addLoc; mind];
             end                

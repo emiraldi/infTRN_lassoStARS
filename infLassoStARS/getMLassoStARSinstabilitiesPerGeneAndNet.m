@@ -132,6 +132,7 @@ for lind = totLambdas:-1:1 % start at highest lambda (lowest instability and wor
     instabVec = instabilitiesPerEdge(:);
     validEdges = find(isfinite(currSS(:))); % limit to finite edges
     netInstabilities(lind) = max(mean(instabVec(validEdges)),max(instabRange)); % take the supremum
+    instabRange(lind) = netInstabilities(lind);   % <-- fix: actually track the running max
 end
 disp('Network Instabilities Estimated')
 
